@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/pc-style.css ">
+    <link rel="stylesheet" href="./styles/1500-style.css">
+    <link rel="stylesheet" href="./styles/media-style.css">
+    <script defer src="./scripts/scroll.js"></script>
+    <script defer src="./scripts/carausel.js"></script>
+    <script defer src="./scripts/go-top.js"></script>
+    <script defer src="./scripts/popup.js"></script>
+    <script defer src="./scripts/mouse-click.js"></script>
+    <script defer src="./scripts/mobile_scripts.js"></script>
+    <title>Novella</title>
+</head>
+<body>
+    <header>
+        <nav class="header" id="header">
+            <div class="header__wrapper">
+                <a href="" class="header__wrapper__logo"><img src="./assets/header/logo_inactive.svg" alt="" id="logo"></a>
+                <ul class="header__wrapper__menu">
+                    <li class="header__wrapper__menu__items"><a href="">Застройщик</a></li>
+                    <li class="header__wrapper__menu__items"><a href="">Квартиры</a></li>
+                    <li class="header__wrapper__menu__items"><a href="">Ипотека</a></li>
+                    <li class="header__wrapper__menu__items"><a href="">Документы</a></li>
+                    <li class="header__wrapper__menu__items"><a href="">Контакты</a></li>
+                    <li class="header__wrapper__menu__items"><a href="">Оценка недвижимости</a></li>
+                </ul>
+                <div class="header__wrapper__fast-contact">
+                    <a href="" class="header__wrapper__fast-contact__call"><img src="./assets/header/arrow-right-circle 1.svg" alt=""></a>
+                    <p class="header__wrapper__fast-contact__phone">+7 391 <b>271-40-20</b></p>
+                </div>
+            </div>
+            <div class="header__wrapper__mobile-menu">
+                <div class="header__wrapper__mobile-menu__phone">
+                    <a type="tel" href="+7 391 271-40-20"><img src="./assets/header/tel.svg" alt=""></a>
+                </div>
+                <div class="header__wrapper__mobile-menu__burger">
+                    <img src="./assets/header/burger_btn.svg" alt="" id="menu-toggler">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="promo">
+        <div class="promo__wrapper">
+            <div class="promo__wrapper__text">
+                <h1>Спеццена:<br>готовая 4-комн 124м<sup>2</sup><br>за 10,8 млн</h1>
+                <h4>рядом с центром Красноярска</h4> 
+            </div>
+        </div>
+        <div class="promo__func">
+            <div class="promo__func__container">
+                <button type="submit" class="promo__func__container__btn">Узнать больше</button>
+                <div class="promo__func__container__mouse"><img src="./assets/promo/svg/mouse.svg" alt=""></div>
+                <h4>Novella начинается на улице Копылова, 19.<br>Рядом с центром Красноярска, в красивом<br>месте с видом на город и Енисей.</h4>
+            </div>
+        </div>
+        <div class="promo__func__modal">
+            <div class="promo__func__modal__box">
+                <button class="promo__func__modal__box__btn-close"><img src="./assets/promo/svg/Close.svg" alt=""></button>
+                <form action="" class="promo__func__modal__box__form">
+                    <input type="text" placeholder="Ваше имя" minlength="1">
+                    <input type="tel" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+                    <div class="promo__func__modal__box__form__checkbox-wrapper">
+                        <input type="checkbox" name="" id="checkbox2" class="promo__func__modal__box__form__input-checkbox" onchange="document.getElementById('promo-sumbit').disabled =! this.checked;">
+                        <label for="checkbox2">Я согласен на обработку моих персональных данных</label>
+                    </div>
+                    <button class="promo__func__modal__box__form__btn" type="submit" id="promo-sumbit" disabled>Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="promo__text">
+            <blockquote id="promo-text">Каждый из нас - автор истории собственной жизни. А чтобы случиться,
+                любой истории нужно подходящее место. В Красноярске мы  нашли идеальное 
+                место для по-настоящему счастливого сюжета. Это дом Novella.</blockquote>
+        </div>
+    </section>
+    <main class="about">
+        <div class="about__block">
+            <img src="./assets/about/png/Rectangle 26.png" alt="" class="about__block__main-img" id="about__first-img">
+            <div class="about__block__text">
+                <div class="about__block__text__title">
+                    <img src="./assets/about/svg/хроника.svg" alt="">
+                    <h2>Близость к центру города</h2>
+                </div>
+                <p>Дом расположен в непосредственной близости к центру города, который открывает массу возможностей для отдыха и культурного времяпровождения. Театры, кафе и рестораны, набережная реки Енисей, Центральный парк, да и просто прогулки по оживленным улицам центра станут неотъемлемой частью вашей жизни. Ведь все близко.</p>
+            </div>
+        </div>
+        <div class="about__block">
+            <div class="about__block__text">
+                <div class="about__block__text__title">
+                    <img src="/assets/about/svg/школа.svg" alt="">
+                    <h2>Готовая инфроструктура</h2>
+                </div>
+                <p>Рядом 7 частных и муниципальных детских садов. 5 школ, лицеев и гимназий. В их числе престижная университетская гимназия «Универс». В пешеходной доступности два торговых центра «Апельсин» и «Славянский», спортивный комплекс «Экселент» с бассейном 25 метров.</p>
+            </div>
+            <img src="./assets/about/png/Rectangle 25.png" alt="" class="about__block__main-img">
+        </div>
+        <div class="about__block">
+            <div class="about__block__video">
+                <iframe src="https://www.youtube.com/embed/B5RLsVj4y6E?si=XHfa_Scy1tFHYCiq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="about__block__text">
+                <div class="about__block__text__title">
+                    <img src="./assets/about/svg/Group 178.svg" alt="">
+                    <h2>Жилой комплекс с высоты</h2>
+                </div>
+                <p>Любоваться Novella можно с самых разных точек города. Дом прекрасно виден даже в темное время суток — сложно не заметить красивый светящийся логотип. В видео мы постарались передать атмосферу жилого комплекса!</p>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="story">
+            <div class="story__title">
+                <h1>Классический сюжет</h1>
+                <h3>Novella - дом в лучших традициях комфорт-класса</h3>
+            </div>
+            <div class="story__wrapper">
+                <div class="story__wrapper__items">
+                    <div class="story__wrapper__items__one">
+                        <img src="./assets/story/svg/технология.svg" alt="">
+                    </div>
+                    <h3>Технологии строительства</h3>
+                    <p>Дом построен из кирпича, ширина стен — 1 метр. Чтобы Novella гармонично вписалась в архитектурный ансамбль города, использован навесной фасад в пастельных зеленых оттенках.</p>
+                    <img src="./assets/story/png/Rectangle 27.png" alt="" class="story__wrapper__items__footer-img">
+                </div>
+                <div class="story__wrapper__items">
+                    <div class="story__wrapper__items__two">
+                        <img src="./assets/story/svg/безопасность.svg" alt="">
+                    </div>
+                    <h3>Безопасный двор</h3>
+                    <p>У дома оборудована воркаут-зона и  две игровые площадки: внутри двора расположена площадка для малышей, рядом — большая площадка для детей постарше. От улицы Копылова они закрыты шумоподавляющим ограждением.</p>
+                    <img src="./assets/story/png/Rectangle 33.png" alt="" class="story__wrapper__items__footer-img">
+                </div>
+                <div class="story__wrapper__items">
+                    <div class="story__wrapper__items__three">
+                        <img src="./assets/story/svg/эстетика.svg" alt="">
+                    </div>
+                    <h3>Подъезды</h3>
+                    <p>В каждом подъезде оборудовано место для консьержа и установлены современные лифты. Дизайн холлов выполнена в классическом стиле, лестницы отделаны практичным керамогранитом.</p>
+                    <img src="./assets/story/png/Rectangle 35.png " alt="" class="story__wrapper__items__footer-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="author">
+            <div class="author__title">
+                <h2>Авторское решение</h2>
+                <h3>Novella вдохновляет <br>дизайнеров</h3>
+            </div>
+            <div class="author__container">
+                <div class="author__container__gallery">
+                    <img src="./assets/author/carousel/center-2.png" alt="" class="author_container__gallery__item">
+                    <img src="./assets/author/carousel/center-1.png" alt="" class="author_container__gallery__item">
+                    <img src="./assets/author/carousel/center.png" alt="" class="author_container__gallery__item active">
+                    <img src="./assets/author/carousel/center+1.png" alt="" class="author_container__gallery__item">
+                    <img src="./assets/author/carousel/center+2.png" alt="" class="author_container__gallery__item">
+                </div>
+                <div class="carusel-controls">
+                    <a class="prev"><img src="./assets/author/svg/go_left.svg" alt=""></a>
+                    <a class="next"><img src="./assets/author/svg/go_right.svg" alt=""></a>
+                </div>
+                <div class="author__container__gallery-controls">
+                    <span class="author__container__gallery-controls__dot" ></span>
+                    <span class="author__container__gallery-controls__dot"></span>
+                    <span class="author__container__gallery-controls__dot dot-active"></span>
+                    <span class="author__container__gallery-controls__dot"></span>
+                    <span class="author__container__gallery-controls__dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper__logo">
+                    <div id="footer-logo">
+                        <img src="./assets/footer/svg/Group.svg " alt="">
+                    </div>
+                    <div class="footer__wrapper__logo__text">
+                        <h3 id="footer__title">Офис продаж</h3>
+                        <p>+7 391 <span>271-40-20</span></p>
+                    </div>
+                </div>
+                <h4>г. Красноярск,<br>ул. Молокова д. 1 копр. 1, оф. 178, 1 этаж</h4>
+                <p><span>График работы офиса продаж:</span></p>
+                <p>В будни с 9:00 до 18:00 <br>Суббота, воскресенье выходной</p>
+                <div class="footer__wrapper__media">
+                    <div class="footer__wrapper__media__items">
+                        <a href=""><img src="./assets/footer/svg/VK.svg" alt=""></a>
+                    </div>
+                    <div class="footer__wrapper__media__items">
+                        <a href=""><img src="./assets/footer/svg/Youtube.svg" alt="Ютуб"></a>
+                    </div>
+                    <div class="footer__wrapper__media__items">
+                        <a href=""><img src="./assets/footer/svg/Odnok.svg" alt=""></a>
+                    </div>
+                    <div class="footer__wrapper__media__items">
+                        <a href=""><img src="./assets/footer/svg/Tg.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <h3>Хочу первым узнавать новости</h3>
+                <form action="">
+                    <div class="footer__wrapper__email">
+                        <input type="email" class="footer__wrapper__input-email" placeholder="Введите Email">
+                        <button type="submit" type="submit" id="email-sumbit" disabled>Подписаться</button>
+                    </div>
+                    <div class="footer__wrapper__presonal-data">
+                        <input type="checkbox" class="footer__wrapper__personal-data__input-checkbox" name="checkbox" id="checkbox1" onchange="document.getElementById('email-sumbit').disabled =! this.checked;">
+                        <label for="checkbox1" id="footer__label">Я согласен на обработку моих персональных <br>данных</label>
+                    </div>
+                </form>
+                <p class="footer__wrapper__proviso">Вся размещенная информация на сайте носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. Визуализации объектов являются ориентировочными. Застройщик вправе вносить изменения в проекты в соответствии с действующим законодательством. Вся размещенная информация на сайте носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ.</p>              
+            </div>
+        </div>
+    </footer>
+    <div class="go-top"><img src="./assets/go-top/Vector 14.svg" alt=""></div>
+</body>
+</html>
