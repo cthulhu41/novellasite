@@ -22,7 +22,7 @@ if(document.documentElement.clientWidth <= 450){
     let footerBlock = document.createElement("div");
     footerBlock.classList.add("footer__wrapper__title");
     let map = document.createElement("img");
-    map.src = "../assets/footer/svg/map-pin.svg";
+    map.src = "./assets/footer/svg/map-pin.svg";
     footerBlock.appendChild(map);
     let mapTtitle = document.createElement("h3");
     let mapTitleText = document.createTextNode("Офис продаж")
@@ -39,11 +39,11 @@ if(document.documentElement.clientWidth <= 450){
         let menuToggler = document.getElementById("menu-toggler");
         if(header.classList.contains("open")){
             header.insertAdjacentElement("beforeend", footerWrapperMenu);
-            menuToggler.src = "../assets/header/burger_close.svg";
+            menuToggler.src = "./assets/header/burger_close.svg";
         }else {
             let footerBurg = document.getElementById("footerMenuBurg");
             footerBurg.remove();
-            menuToggler.src = "../assets/header/burger_btn.svg";
+            menuToggler.src = "./assets/header/burger_btn.svg";
         }
     })
 
